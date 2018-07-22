@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <section class="home">
+      <div class="about-us">
+        <div class="container">
+          <div class="rec">
+            <img src="images/pincle.png" alt="">
+            <div class="circle">
+              <h2 class="h1 text-center t-color">About<br>Us</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="our-products">
+        <div class="container">
+          <div class="c-slider" id="c-slider">
+            <div class="c-title">
+              <img src="images/ourProduct.png" alt="">
+              <h2><span>Our</span>Product</h2>
+            </div>
+            <div class="c-bord">
+              <img src="images/Rectangle1.svg" alt="">
+              <img src="images/Rectangle2.svg" alt="">
+            </div>
+            <div class="c-item c-position1">
+              <img class="c-image" src="images/car1.jpg" alt="...">
+            </div>
+            <div class="c-item c-position2">
+              <img class="c-image" src="images/car2.jpg" alt="...">
+            </div>
+            <div class="c-item c-position3">
+              <img class="c-image" src="images/car3.jpg" alt="...">
+            </div>
+            <div class="c-item c-active">
+              <img class="c-image" src="images/car4.jpg" alt="...">
+            </div>
+
+            <!-- Controls -->
+            <a class="btn-arrow btn-arrow-l" href="#c-slider" role="button">
+              <img src="images/left-chevron.svg" class="arrow arrow-l">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="btn-arrow btn-arrow-r" href="#c-slider" role="button">
+              <img src="images/right-chevron.svg" class="arrow arrow-r">
+              <span class="sr-only">Next</span>
+            </a>
+          </div> 
+        </div>
+      </div>
+
+      <div class="form-section">
+        <div class="container">
+          <form action="" class="form">
+            <img src="images/telegram.png" alt="" class="corner-img">
+            <div class="input-field">
+              <div class="b-images b-images-l">
+                <img src="images/form-rec1.svg" alt="">
+                <img src="images/form-rec3.svg" alt="">
+                <img src="images/form-rec2.svg" alt="">
+              </div>
+              <img src="images/pen.svg" alt="" class="pen-img pen-img-l">
+              <label class="input_title input_title-l" for="f-name"><span>First</span><span>Name</span></label>
+              <input type="text" class="input-box input-box-l" id="f-name" required>
+            </div>
+
+            <div class="input-field">
+              <div class="b-images b-images-r">
+                <img src="images/form-rec1.svg" alt="">
+                <img src="images/form-rec4.svg" alt="">
+                <img src="images/form-rec2.svg" alt="">
+              </div>
+              <img src="images/pen.svg" alt="" class="pen-img pen-img-r">
+              <label class="input_title input_title-r" for="l-name"><span>Last</span><span>Name</span></label>
+              <input type="text" class="input-box input-box-r" id="l-name" required>
+            </div>
+
+            <div class="input-field">
+              <div class="b-images b-images-l">
+                <img src="images/form-rec1.svg" alt="">
+                <img src="images/form-rec3.svg" alt="">
+                <img src="images/form-rec2.svg" alt="">
+              </div>
+              <img src="images/pen.svg" alt="" class="pen-img pen-img-l">
+              <label class="input_title input_title-l" for="email"><span>Email</span></label>
+              <input type="email" class="input-box input-box-l" id="email" required>
+            </div>
+            <div class="input-field">
+              <div class="b-images b-images-r">
+                <img src="images/form-rec1.svg" alt="">
+                <img src="images/form-rec4.svg" alt="">
+                <img src="images/form-rec2.svg" alt="">
+              </div>
+              <img src="images/pen.svg" alt="" class="pen-img pen-img-r">
+              <label class="input_title input_title-r" for="phone"><span>Phone</span></label>
+              <input type="tel" id="phone" name="phone" class="input-box input-box-r"
+              required/>
+            </div>
+            <div class="msg-field">
+              <img src="images/mesage.png" alt="">
+              <textarea name="msg" id="" cols="65" rows="7" placeholder="message" class="msg"></textarea>
+            </div>
+            <button class="btn-send">send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
